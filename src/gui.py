@@ -19,6 +19,7 @@ class ScanWindow(QWidget):
         self.barcode_dict = {}
 
         self.database = Command() # connect to database
+        
 
         # You can use "super().__init__()" instead
         super(ScanWindow, self).__init__()
